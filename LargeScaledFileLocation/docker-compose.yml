@@ -1,0 +1,155 @@
+version: '2'
+services:
+  node1:
+    environment:
+      - SPORT=8001
+      - BWTN=2048
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+    - "8001:8001"
+  node2:
+    environment:
+      - SPORT=8002
+      - BWTN=2048
+      - PEERS=ws://node1:8001-1424
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+    - "8002:8002"
+    links:
+      - node1:node1
+  node3:
+    environment:
+      - SPORT=8003
+      - BWTN=2048
+      - PEERS=ws://node1:8001-874,ws://node2:8002-902
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8003:8003"
+    links:
+      - node1:node1
+      - node2:node2
+  node4:
+    environment:
+      - SPORT=8004
+      - BWTN=2048
+      - PEERS=ws://node1:8001-767,ws://node2:8002-200,ws://node3:8003-200
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8004:8004"
+    links:
+      - node1:node1
+      - node2:node2
+      - node3:node3
+  node5:
+    environment:
+      - SPORT=8005
+      - BWTN=2048
+      - PEERS=ws://node1:8001-2958,ws://node2:8002-200,ws://node3:8003-1047,ws://node4:8004-1543
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8005:8005"
+    links:
+      - node1:node1
+      - node2:node2
+      - node3:node3
+      - node4:node4
+  node6:
+    environment:
+      - SPORT=8006
+      - BWTN=2048
+      - PEERS=ws://node1:8001-1143,ws://node2:8002-1590,ws://node3:8003-716,ws://node4:8004-962,ws://node5:8005-908
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8006:8006"
+    links:
+      - node1:node1
+      - node2:node2
+      - node3:node3
+      - node4:node4
+      - node5:node5
+  node7:
+    environment:
+      - SPORT=8007
+      - BWTN=2048
+      - PEERS=ws://node1:8001-1986,ws://node2:8002-2026,ws://node3:8003-305,ws://node4:8004-825,ws://node5:8005-2151,ws://node6:8006-200
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8007:8007"
+    links:
+      - node1:node1
+      - node2:node2
+      - node3:node3
+      - node4:node4
+      - node5:node5
+      - node6:node6
+  node8:
+    environment:
+      - SPORT=8008
+      - BWTN=2048
+      - PEERS=ws://node1:8001-2233,ws://node2:8002-1546,ws://node3:8003-790,ws://node4:8004-1858,ws://node5:8005-677,ws://node6:8006-1210,ws://node7:8007-1090
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8008:8008"
+    links:
+      - node1:node1
+      - node2:node2
+      - node3:node3
+      - node4:node4
+      - node5:node5
+      - node6:node6
+      - node7:node7
+  node9:
+    environment:
+      - SPORT=8009
+      - BWTN=2048
+      - PEERS=ws://node1:8001-200,ws://node2:8002-441,ws://node3:8003-1147,ws://node4:8004-200,ws://node5:8005-1165,ws://node6:8006-1836,ws://node7:8007-328,ws://node8:8008-1874
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8009:8009"
+    links:
+      - node1:node1
+      - node2:node2
+      - node3:node3
+      - node4:node4
+      - node5:node5
+      - node6:node6
+      - node7:node7
+      - node8:node8
+  node10:
+    environment:
+      - SPORT=8010
+      - BWTN=2048
+      - PEERS=ws://node1:8001-713,ws://node2:8002-200,ws://node3:8003-447,ws://node4:8004-1366,ws://node5:8005-704,ws://node6:8006-2213,ws://node7:8007-3202,ws://node8:8008-1223,ws://node9:8009-1824
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8010:8010"
+    links:
+      - node1:node1
+      - node2:node2
+      - node3:node3
+      - node4:node4
+      - node5:node5
+      - node6:node6
+      - node7:node7
+      - node8:node8
+      - node9:node9
