@@ -13,7 +13,7 @@ services:
     environment:
       - SPORT=8002
       - BWTN=2048
-      - PEERS=ws://node1:8001-1424
+      - PEERS=ws://node1:8001-983
     build:
       context: ./
       dockerfile: Dockerfile
@@ -25,7 +25,7 @@ services:
     environment:
       - SPORT=8003
       - BWTN=2048
-      - PEERS=ws://node1:8001-874,ws://node2:8002-902
+      - PEERS=ws://node1:8001-899,ws://node2:8002-1620
     build:
       context: ./
       dockerfile: Dockerfile
@@ -38,7 +38,7 @@ services:
     environment:
       - SPORT=8004
       - BWTN=2048
-      - PEERS=ws://node1:8001-767,ws://node2:8002-200,ws://node3:8003-200
+      - PEERS=ws://node1:8001-925,ws://node2:8002-1489,ws://node3:8003-2020
     build:
       context: ./
       dockerfile: Dockerfile
@@ -52,7 +52,7 @@ services:
     environment:
       - SPORT=8005
       - BWTN=2048
-      - PEERS=ws://node1:8001-2958,ws://node2:8002-200,ws://node3:8003-1047,ws://node4:8004-1543
+      - PEERS=ws://node1:8001-1505,ws://node2:8002-1256,ws://node3:8003-1656,ws://node4:8004-1725
     build:
       context: ./
       dockerfile: Dockerfile
@@ -67,7 +67,7 @@ services:
     environment:
       - SPORT=8006
       - BWTN=2048
-      - PEERS=ws://node1:8001-1143,ws://node2:8002-1590,ws://node3:8003-716,ws://node4:8004-962,ws://node5:8005-908
+      - PEERS=ws://node1:8001-1252,ws://node2:8002-1502,ws://node3:8003-2071,ws://node4:8004-2438
     build:
       context: ./
       dockerfile: Dockerfile
@@ -83,7 +83,7 @@ services:
     environment:
       - SPORT=8007
       - BWTN=2048
-      - PEERS=ws://node1:8001-1986,ws://node2:8002-2026,ws://node3:8003-305,ws://node4:8004-825,ws://node5:8005-2151,ws://node6:8006-200
+      - PEERS=ws://node1:8001-1870,ws://node2:8002-1801,ws://node3:8003-2289,ws://node4:8004-2605,ws://node5:8005-2572
     build:
       context: ./
       dockerfile: Dockerfile
@@ -100,7 +100,7 @@ services:
     environment:
       - SPORT=8008
       - BWTN=2048
-      - PEERS=ws://node1:8001-2233,ws://node2:8002-1546,ws://node3:8003-790,ws://node4:8004-1858,ws://node5:8005-677,ws://node6:8006-1210,ws://node7:8007-1090
+      - PEERS=ws://node1:8001-2137,ws://node3:8003-2289,ws://node4:8004-2838,ws://node5:8005-2452,ws://node6:8006-2656,ws://node7:8007-3504
     build:
       context: ./
       dockerfile: Dockerfile
@@ -118,7 +118,7 @@ services:
     environment:
       - SPORT=8009
       - BWTN=2048
-      - PEERS=ws://node1:8001-200,ws://node2:8002-441,ws://node3:8003-1147,ws://node4:8004-200,ws://node5:8005-1165,ws://node6:8006-1836,ws://node7:8007-328,ws://node8:8008-1874
+      - PEERS=ws://node1:8001-2171,ws://node2:8002-2669,ws://node3:8003-2457,ws://node4:8004-2502,ws://node5:8005-3108,ws://node8:8008-3671
     build:
       context: ./
       dockerfile: Dockerfile
@@ -137,7 +137,7 @@ services:
     environment:
       - SPORT=8010
       - BWTN=2048
-      - PEERS=ws://node1:8001-713,ws://node2:8002-200,ws://node3:8003-447,ws://node4:8004-1366,ws://node5:8005-704,ws://node6:8006-2213,ws://node7:8007-3202,ws://node8:8008-1223,ws://node9:8009-1824
+      - PEERS=ws://node1:8001-2508,ws://node2:8002-2626,ws://node3:8003-2656,ws://node4:8004-2680,ws://node5:8005-3521,ws://node6:8006-3583,ws://node7:8007-3499,ws://node8:8008-3502,ws://node9:8009-3936
     build:
       context: ./
       dockerfile: Dockerfile

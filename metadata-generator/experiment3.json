@@ -1,0 +1,191 @@
+#访问衰减实验,随着所有节点被存满,访问速度应该逐渐接近随机存储
+
+
+
+#随机存储,平均访问时间是: 0.7480555555555554
+{'094412_foutdqaj': 0.48, '094412_upxhfjla': 0.0, '094412_ukjxwrtp': 0.6, '094412_pydueboz': 0.0, '094412_zfcrvwhl': 0.0, '094412_ydegjkur': 0.58,
+'094412_flsqjewi': 0.7, '094412_teykmqjd': 0.72, '094412_hbpludiq': 0.76, '094412_dvmopisa': 0.72, '094412_qbfwyprg': 1.07, '094412_fnathzox': 1.06,
+'094412_lhrzifyo': 0.65, '094412_fdlctiqo': 0.56, '094412_dzyrgmni': 0.53, '094412_gjdocqau': 0.73, '094412_ablvtjsc': 0.6, '094412_zuqnyamb': 0.0,
+'094412_sftienda': 0.7, '094412_bjiwfkye': 0.0, '094412_hbwoazsm': 0.57, '094412_vhtaupfe': 0.84, '094412_nohcelqp': 0.71, '094412_ywblhjsa': 0.7,
+'094412_cfwndekq': 0.59, '094412_ubghjspt': 0.7, '094412_ylfghbps': 0.84, '094412_mjngihzq': 1.13, '094412_ygndksfu': 0.0, '094412_mcozkwih': 0.7,
+'094412_euvtrogh': 0.5, '094412_qgwurzon': 0.0, '094412_conswhjr': 0.0, '094412_nmujgxhl': 0.49, '094412_vnflxdhi': 0.69, '094412_hxpidsjn': 0.6,
+'094412_rotvcahi': 0.0, '094412_klmohvby': 0.84, '094412_tqzrkije': 0.73, '094412_pyxoandc': 0.0, '094412_abgzptwf': 0.48, '094412_ohdpulvq': 0.84,
+'094412_vreboxpd': 1.65, '094412_xfsodgak': 0.75, '094412_nxpzsrkw': 1.06, '094412_ncmgvwtl': 0.0, '094412_czbpnhgm': 0.0, '094412_cerkzigb': 1.06,
+'094412_asbiplky': 0.0, '094412_wgmidhpk': 0.0}
+
+#第二次随机存储实验
+平均访问时间是: 0.7353846153846154
+{'094940_dmykptuc': 1.06, '094940_ynhwsmdx': 0.0, '094940_koipwsvb': 1.13, '094940_wufdcgnh': 0.0, '094940_aptnwomy': 0.0, '094940_pviyeswg': 0.57,
+'094940_vqwnrokz': 0.0, '094940_tbgpjsvz': 0.83, '094940_hezabdrn': 0.59, '094940_ufoizytq': 0.0, '094940_mhziutoa': 0.0, '094940_oxznsjhu': 0.0,
+'094940_anlvhjye': 1.12, '094940_cnbgvsae': 0.0, '094940_ealdqbco': 0.0, '094940_rkpugnsi': 1.08, '094940_txhpmrgi': 0.0, '094940_sqrcivhe': 0.59,
+'094940_typxralk': 0.0, '094940_dkeanhws': 0.57, '094940_dtuvmqcz': 0.0, '094940_lsxkragd': 0.7, '094940_hynfpoaj': 0.0, '094940_dizucvrq': 0.74,
+'094940_himrvbsc': 0.57, '094940_gxdwvcui': 0.0, '094940_jxdhysfq': 0.0, '094940_pgjnousi': 0.73, '094940_olzgsdaw': 0.0, '094940_abfvurwl': 1.13,
+'094940_bqhwgvsx': 1.05, '094940_bwvjgzfr': 0.72, '094940_yskctzga': 0.57, '094940_dzgmwltc': 0.0, '094940_wqmypter': 0.7, '094940_hrlqdajm': 0.0,
+'094940_mdpyhnqa': 0.63, '094940_hzaqedxp': 0.0, '094940_nuqsomal': 0.0, '094940_tyihpgls': 0.0, '094940_ravzkfqh': 0.73, '094940_hmfwbict': 0.0,
+'094940_mvianybx': 0.56, '094940_vrpkmiwe': 0.57, '094940_jrbfonhx': 0.57, '094940_svzernbl': 0.57, '094940_eafwshjz': 0.0, '094940_bifwamxg': 0.5,
+'094940_vmygxbjz': 0.54, '094940_jivkyqwz': 0.0}
+
+
+
+
+
+#kt/ks=0.25,ks=4000,
+平均访问时间是: 0.594
+{'135256_olizjnbe': 0.49, '135256_ptvrnilc': 0.57, '135256_dqfaznux': 0.48, '135256_ysmerfgk': 0.58, '135256_eikyomfh': 0.71, '135256_erniqaco': 0.52, '135256_poutaqws': 0.7, '135256_vmkoxbhq': 0.59, '135256_hryklzwa': 0.59, '135256_qdlaitsr': 0.71}
+平均访问时间是: 0.7070000000000001
+{'135329_wlogikpv': 0.61, '135329_dcsqubzo': 0.73, '135329_kfmgzeur': 0.83, '135329_sawrfjgd': 0.6, '135329_npjxtoqh': 0.71, '135329_kveqlxug': 0.84, '135329_zpsogqct': 0.59, '135329_uwslndht': 0.71, '135329_cxhkqfja': 0.86, '135329_jelifvha': 0.59}
+平均访问时间是: 0.714
+{'135403_bfcemjyk': 0.72, '135403_nfhorbwz': 0.85, '135403_fuadmrwz': 0.6, '135403_thbxoyze': 0.7, '135403_mgpavwjr': 0.86, '135403_zmerbtyu': 0.6, '135403_nzkcydwv': 0.69, '135403_azspybkc': 0.84, '135403_urmlyojs': 0.58, '135403_ynemzlgp': 0.7}
+平均访问时间是: 0.727
+{'135437_zqplwumn': 0.85, '135437_zepvixas': 0.58, '135437_aetpsdfk': 0.7, '135437_wypjimra': 0.86, '135437_hzntawmi': 0.6, '135437_cljmqyka': 0.72, '135437_dvksuqfl': 0.84, '135437_hbnxkpla': 0.58, '135437_omarpsfc': 0.69, '135437_qsdralcp': 0.85}
+平均访问时间是: 0.693
+{'135510_yrmiswhl': 0.59, '135510_mdvbncjl': 0.69, '135510_kyowlftr': 0.83, '135510_kwldgbuy': 0.58, '135510_wgdxqsjm': 0.7, '135510_ageyhmtp': 0.85, '135510_ryjpgvdw': 0.59, '135510_jhzcgdbu': 0.69, '135510_gvoxbpdq': 0.83, '135510_lihxmbsf': 0.58}
+平均访问时间是: 0.7130000000000001
+{'135544_aciflkmq': 0.72, '135544_pjouaebq': 0.84, '135544_wlfhrtou': 0.6, '135544_idqrsfcm': 0.7, '135544_pvzjuoky': 0.85, '135544_lvrxneqc': 0.59, '135544_imelhktf': 0.7, '135544_nztqigeb': 0.84, '135544_ckfnbema': 0.58, '135544_xpwnaesk': 0.71}
+平均访问时间是: 0.722
+{'135618_fmjxbctl': 0.86, '135618_yobswfak': 0.6, '135618_xwqnyglp': 0.7, '135618_wftoqajx': 0.84, '135618_mxtscbyk': 0.59, '135618_iyzcnxpw': 0.69, '135618_etdpkgnb': 0.83, '135618_jrzqupim': 0.58, '135618_mvwrocbi': 0.7, '135618_dqicywmt': 0.83}
+平均访问时间是: 0.704
+{'135651_mhktnufd': 0.58, '135651_nydfxvco': 0.7, '135651_slkptehy': 0.86, '135651_vexlrdzj': 0.59, '135651_lsqtrhay': 0.73, '135651_sudxjiqw': 0.83, '135651_ulfxekgq': 0.58, '135651_rcljfaom': 0.72, '135651_kigvdlbp': 0.84, '135651_faqocjet': 0.61}
+平均访问时间是: 0.7070000000000001
+{'135725_heofwnci': 0.71, '135725_svfipqca': 0.83, '135725_fxdijtor': 0.59, '135725_rbfaghyv': 0.7, '135725_kxpijmos': 0.84, '135725_rhvbxnlq': 0.58, '135725_nflpehdr': 0.7, '135725_glqozfck': 0.84, '135725_pinzkwec': 0.59, '135725_fpchmglk': 0.69}
+平均访问时间是: 0.72
+{'135759_muqlpyna': 0.83, '135759_lewfvqjz': 0.59, '135759_lfqhgdvr': 0.71, '135759_krtudsmw': 0.84, '135759_ildtgoym': 0.59, '135759_azgblwth': 0.7, '135759_mvnwxcyz': 0.84, '135759_xjndwgvy': 0.58, '135759_hmksvxtr': 0.69, '135759_bjzirqwt': 0.83}
+平均访问时间是: 0.699
+{'135832_aushnvrx': 0.58, '135832_ofyxjemi': 0.7, '135832_qesprzbw': 0.83, '135832_wotnhjua': 0.58, '135832_mapolbet': 0.7, '135832_xhjlcdqy': 0.85, '135832_jioryqsk': 0.58, '135832_xwyrebcd': 0.72, '135832_eunfhjtb': 0.86, '135832_ugnlpmbt': 0.59}
+平均访问时间是: 0.688
+{'135906_tmbnasli': 0.7, '135906_zfevhwkb': 0.84, '135906_cjrnbfwu': 0.58, '135906_cfbvtuow': 0.7, '135906_btnhorqk': 0.51, '135906_goevchbq': 0.59, '135906_bhgdayjs': 0.83, '135906_qfwoexdu': 0.58, '135906_xwvthmsc': 0.71, '135906_cktuilox': 0.84}
+平均访问时间是: 0.435
+{'135940_lbcdpneg': 0.86, '135940_vpabqtmy': 0.0, '135940_gxmtralp': 0.0, '135940_ngbohtyq': 0.0, '135940_gwivdnxp': 0.01, '135940_xqjcowvu': 0.0, '135940_delmtqaz': 0.0, '135940_monlhiuz': 0.0, '135940_pxfeqldw': 0.0, '135940_hkbuiztg': 0.0}
+
+
+
+        #kt/ks=0.5,ks=2000,
+{'112751_hmlejcxg': 0.48, '112751_ejsxyrwh': 0.49, '112751_cfqgwaty': 0.59, '112751_jdnvtbur': 0.51, '112751_ncxlwqhg': 0.59, '112751_mtbhxkjc': 0.58, '112751_ogixnvkp': 0.5, '112751_rpvuweaf': 0.59, '112751_qywchbrk': 0.58, '112751_mwysojvh': 0.52}
+平均访问时间是: 0.615
+{'112825_uhznmgvs': 0.59, '112825_cvjbwoui': 0.72, '112825_dgerpwqt': 0.57, '112825_liyqnaru': 0.58, '112825_tdpungbq': 0.49, '112825_fzmtuhls': 0.85, '112825_byhtgwpr': 0.52, '112825_datjolng': 0.57, '112825_owujmlxc': 0.69, '112825_qcdnvysi': 0.57}
+平均访问时间是: 0.65
+{'112858_gmtnfrqy': 0.59, '112858_tdflbxps': 0.69, '112858_asojhxvl': 0.57, '112858_fhpargcb': 0.63, '112858_xwarpcfe': 0.7, '112858_rlqbemda': 0.56, '112858_lxvjcrqa': 0.84, '112858_xidpjrek': 0.71, '112858_zrmfhegl': 0.58, '112858_pqksngve': 0.63}
+平均访问时间是: 0.703
+{'112932_xwmybrle': 0.7, '112932_pkwbifgc': 0.57, '112932_jdiplcvs': 0.85, '112932_izfjsqob': 0.7, '112932_hszeqyka': 0.58, '112932_cqsjpmyu': 0.84, '112932_nbedxfrz': 0.69, '112932_vkbxmsnj': 0.57, '112932_lrhpiucj': 0.84, '112932_zrgnexfq': 0.69}
+平均访问时间是: 0.677
+{'113005_qveapkdx': 0.59, '113005_lkntsbwa': 0.64, '113005_esfoublt': 0.71, '113005_oncqzkdy': 0.59, '113005_zjwnoctb': 0.84, '113005_ucjiynmb': 0.71, '113005_pvonzril': 0.58, '113005_djelbhif': 0.83, '113005_xojwnmkv': 0.7, '113005_vsexowkj': 0.58}
+平均访问时间是: 0.7140000000000001
+{'113039_mkyjpqsh': 0.83, '113039_ijvlsano': 0.69, '113039_zrtqgvfb': 0.57, '113039_zfvunebo': 0.83, '113039_dimcqxlb': 0.7, '113039_oulrcdef': 0.57, '113039_fswzuyhm': 0.85, '113039_qnzvmdyu': 0.7, '113039_hyvftzxw': 0.57, '113039_xvdnectf': 0.83}
+平均访问时间是: 0.689
+{'113113_qfxrswzb': 0.72, '113113_yxwbtham': 0.58, '113113_encjgmfz': 0.84, '113113_trapjgdo': 0.69, '113113_lncfywhp': 0.57, '113113_qjreoiug': 0.86, '113113_yzxlcrko': 0.71, '113113_cejugbxy': 0.58, '113113_czbqypid': 0.64, '113113_xsgpjqtv': 0.7}
+平均访问时间是: 0.6920000000000001
+{'113146_kvgrqaze': 0.57, '113146_xvmptysn': 0.83, '113146_pgmakfct': 0.71, '113146_gkswjcul': 0.59, '113146_amlvxenq': 0.85, '113146_pxtieouc': 0.7, '113146_bhnelfko': 0.56, '113146_unycltmk': 0.84, '113146_kpvwuqac': 0.7, '113146_pzmbkrdw': 0.57}
+平均访问时间是: 0.7219999999999999
+{'113220_xridnqom': 0.84, '113220_iykbdazq': 0.69, '113220_htwdfqei': 0.57, '113220_rmytbjfx': 0.84, '113220_ktmjovfe': 0.7, '113220_wiochbtr': 0.58, '113220_lisuqemp': 0.85, '113220_iotfqmjy': 0.71, '113220_dsvgriku': 0.59, '113220_idhwakev': 0.85}
+平均访问时间是: 0.7030000000000001
+{'113254_jvrxmikl': 0.7, '113254_cgflsqhy': 0.58, '113254_bsagclmx': 0.84, '113254_kwvgnmzx': 0.7, '113254_haylrcem': 0.56, '113254_iwgcqkdo': 0.84, '113254_zprjlibh': 0.71, '113254_anbmoikq': 0.57, '113254_gfnrwsld': 0.83, '113254_maykswxc': 0.7}
+平均访问时间是: 0.6900000000000001
+{'113328_kvtrhmbx': 0.59, '113328_teuxvgwh': 0.85, '113328_xwfohast': 0.51, '113328_alwsinup': 0.59, '113328_xajedrbi': 0.84, '113328_leovrykt': 0.57, '113328_hyvkqmur': 0.84, '113328_jahudftr': 0.7, '113328_mspgvoru': 0.57, '113328_xjaoievu': 0.84}
+平均访问时间是: 0.8099999999999999
+
+
+
+      #未衰减,取kt/ks=1.3,ks=769,此时最后一个节点刚刚激活,每次存储10个,比较读取时间
+#前10个,25M,平均访问时间是: 0.526
+{'104318_dcvaumlb': 0.51, '104318_zngjqpov': 0.49, '104318_vynqzbdi': 0.49, '104318_betlovzg': 0.51, '104318_oawpuiey': 0.59, '104318_fyksparq': 0.49, '104318_pacmotbl': 0.59, '104318_kdcpjtgy': 0.5, '104318_mkelriwt': 0.58, '104318_cabvdgmt': 0.51}
+平均访问时间是: 0.571
+{'104532_aqekobrh': 0.57, '104532_hmkaconf': 0.5, '104532_dwyjhnpm': 0.58, '104532_vmrgihet': 0.58, '104532_ujlozkia': 0.57, '104532_vpdqerbl': 0.58, '104532_gckxsorp': 0.58, '104532_xmzwpueo': 0.56, '104532_buwxghck': 0.6, '104532_secndapu': 0.59}
+平均访问时间是: 0.5900000000000001
+{'104615_tmwgfcpj': 0.59, '104615_xcbhpilw': 0.58, '104615_xcighsue': 0.59, '104615_xcdlafny': 0.58, '104615_cljzpfet': 0.6, '104615_ycevwuqx': 0.57, '104615_atphvnmo': 0.49, '104615_xkybmalt': 0.74, '104615_vbtrnjde': 0.58, '104615_gektowzf': 0.58}
+平均访问时间是: 0.6169999999999999
+{'104723_eliaxduz': 0.58, '104723_xbtuswca': 0.71, '104723_tpyvzngu': 0.57, '104723_vqekfrip': 0.52, '104723_bzxoeulp': 0.73, '104723_yuxapnqj': 0.57, '104723_iwrxsjuq': 0.6, '104723_orfliqtn': 0.71, '104723_ajfhxvdc': 0.59, '104723_vdwgnqpf': 0.59}
+平均访问时间是: 0.607
+{'104806_ioebszfq': 0.52, '104806_vlwxgfmp': 0.72, '104806_qfreztpg': 0.56, '104806_cimslnpv': 0.6, '104806_smafrkhc': 0.71, '104806_opkhlxtm': 0.6, '104806_xrlbjvoc': 0.57, '104806_bjazxshc': 0.5, '104806_ksnqzteb': 0.73, '104806_xzhjqpfa': 0.56}
+平均访问时间是: 0.661
+{'104911_gshumrne': 0.61, '104911_achfbowt': 0.58, '104911_fbsvuenc': 0.7, '104911_duqvkbzc': 0.74, '104911_kdhnbzsj': 0.57, '104911_vtwmrnuq': 0.76, '104911_ejwticbv': 0.57, '104911_pyimqftw': 0.49, '104911_zsodagfw': 0.75, '104911_lvgrbhiu': 0.84}
+平均访问时间是: 0.7149999999999999
+{'104953_ipcweblr': 0.5, '104953_lqmdhnoy': 0.73, '104953_eambowzt': 0.84, '104953_ndxigsrv': 0.5, '104953_dmuhrbcj': 0.73, '104953_svguqdmf': 0.84, '104953_mfhbclga': 0.7, '104953_sjpaceoh': 0.85, '104953_avxcidhq': 0.69, '104953_qfiwxbpv': 0.77}
+平均访问时间是: 0.742
+{'105208_jlzmvkoi': 0.85, '105208_fawidtuh': 0.57, '105208_dgozhmqi': 0.75, '105208_bcjtyphr': 0.83, '105208_mfwvpxsr': 0.69, '105208_kypmcrvn': 0.85, '105208_fpvxthra': 0.71, '105208_idowsley': 0.74, '105208_tonmlbcp': 0.85, '105208_owievdpu': 0.58}
+平均访问时间是: 0.767
+{'105256_uznvjyrq': 0.74, '105256_boweamsq': 0.85, '105256_pqcdnxve': 0.69, '105256_cdsgexnv': 0.86, '105256_qjvlgwsp': 0.71, '105256_zvbfylxe': 0.74, '105256_vdaktwlu': 0.84, '105256_vsegoamb': 0.7, '105256_luamhgnj': 0.84, '105256_pqglbacj': 0.7}
+平均访问时间是: 0.7609999999999999
+{'105358_bagilmeo': 0.73, '105358_sukvhdmp': 0.85, '105358_aicqvtds': 0.69, '105358_uaylwkpx': 0.83, '105358_grautsch': 0.69, '105358_bpdxqeru': 0.85, '105358_pnevytbq': 0.7, '105358_eyxsghna': 0.72, '105358_idztvyhu': 0.85, '105358_mqoxtlrc': 0.7}
+平均访问时间是: 0.7769999999999999
+{'105446_upkhnviq': 0.85, '105446_qnztgibl': 0.7, '105446_qyebamrh': 0.86, '105446_tzfyqidb': 0.72, '105446_puxymswt': 0.85, '105446_dmizcywu': 0.71, '105446_clibxrum': 0.84, '105446_rmckxiod': 0.7, '105446_pjmzfryu': 0.84, '105446_rtizfkpg': 0.7}
+平均访问时间是: 0.7966666666666667
+{'105529_ysjczbht': 0.83, '105529_szbmxwou': 0.71, '105529_hfnyivqt': 0.85, '105529_dztexrwa': 0.0, '105529_jxbapzti': 0.0, '105529_ubytajil': 0.0, '105529_nszhubyj': 0.0, '105529_flwejdhg': 0.0, '105529_bygdqzif': 0.0, '105529_pekoahzx': 0.0}
+#备份节点不足三个
+
+
+
+#未衰减,取kt/ks=2.5,ks=400,1\2\6未激活,每次存储10个,比较读取时间
+平均访问时间是: 0.5209999999999999
+{'110005_vyqsroal': 0.52, '110005_yiufvotc': 0.49, '110005_yxkfugio': 0.51, '110005_hxwgcqva': 0.49, '110005_xscbzogw': 0.51, '110005_onbhkrmu': 0.51, '110005_kjryxami': 0.5, '110005_svqgyebc': 0.59, '110005_facgqjuh': 0.51, '110005_ucwzfxiq': 0.58}
+平均访问时间是: 0.531
+{'110048_bljxkqyp': 0.51, '110048_ywzdtcxe': 0.58, '110048_zgtcdfyp': 0.51, '110048_lsgitxdj': 0.57, '110048_dkjlpcax': 0.49, '110048_wgfxmvnk': 0.57, '110048_oezdfrlh': 0.51, '110048_glvqjuip': 0.58, '110048_hinowupk': 0.49, '110048_unjsptaf': 0.5}
+平均访问时间是: 0.5650000000000001
+{'110424_zitacwyu': 0.57, '110424_oxcfvsjb': 0.51, '110424_bmocdzja': 0.57, '110424_pkbuflsw': 0.5, '110424_qkftimhw': 0.59, '110424_jdozuget': 0.56, '110424_lmqtecwb': 0.58, '110424_hntcxops': 0.58, '110424_pswuzrhb': 0.49, '110424_npcagwrm': 0.7}
+平均访问时间是: 0.571
+{'110646_khuevfsr': 0.59, '110646_xsydjfbn': 0.49, '110646_gsikmncr': 0.63, '110646_viksaptm': 0.51, '110646_xbjqmdfh': 0.59, '110646_rxkeyzdu': 0.59, '110646_jcwuifzg': 0.59, '110646_bjgzfrhd': 0.58, '110646_lizerqju': 0.56, '110646_xzuisgor': 0.58}
+平均访问时间是: 0.604
+{'110729_xsrniype': 0.49, '110729_jobhkgsp': 0.7, '110729_bwxnoaqe': 0.5, '110729_nwpecxrs': 0.69, '110729_hoajmesq': 0.51, '110729_xknjzdht': 0.58, '110729_gqhbtjyo': 0.67, '110729_setxomyf': 0.7, '110729_wefkqtcz': 0.5, '110729_thykvned': 0.7}
+平均访问时间是: 0.617
+{'110813_gwstbuio': 0.5, '110813_rbngdwek': 0.7, '110813_znaphbgm': 0.51, '110813_slhbvpta': 0.58, '110813_fecglbds': 0.66, '110813_eqjgvrzu': 0.72, '110813_brtukszm': 0.57, '110813_oidvagkt': 0.7, '110813_nkeclbqo': 0.51, '110813_erdyoslf': 0.72}
+平均访问时间是: 0.648
+{'110856_ipdlhsku': 0.52, '110856_rayzbhqm': 0.72, '110856_fgnrzvqi': 0.51, '110856_nypfueak': 0.84, '110856_apivzbux': 0.71, '110856_cpnyiblq': 0.6, '110856_moburdfv': 0.72, '110856_egopcfqx': 0.58, '110856_zexsujvr': 0.71, '110856_tulzhirp': 0.57}
+平均访问时间是: 0.712
+{'111001_cewrkuid': 0.73, '111001_ldigspvk': 0.71, '111001_exjbygkd': 0.72, '111001_famstdcz': 0.7, '111001_tksudpqa': 0.58, '111001_xqoyzirn': 0.72, '111001_poldfcsx': 0.84, '111001_hpiownvf': 0.69, '111001_ksujeboi': 0.71, '111001_xgthurmo': 0.72}
+平均访问时间是: 0.6849999999999999
+{'111120_arvdketg': 0.85, '111120_jhuawnct': 0.69, '111120_lyjcazrs': 0.59, '111120_hcvwondz': 0.71, '111120_mbcflkov': 0.72, '111120_grobhwlm': 0.7, '111120_tqiwgnub': 0.58, '111120_fvtbancw': 0.7, '111120_gtokwjzx': 0.6, '111120_umgnsflt': 0.71}
+平均访问时间是: 0.758
+{'111154_shbnctor': 0.71, '111154_okdwvxhj': 0.71, '111154_bfewjoxs': 0.85, '111154_hrfvugdx': 0.7, '111154_btnyhsrk': 0.83, '111154_bmceydiz': 0.83, '111154_yhlrjicp': 0.58, '111154_qlkihtpr': 0.83, '111154_gdqxnhcp': 0.7, '111154_wmkbneox': 0.84}
+平均访问时间是: 0.865
+{'111227_menoycxv': 0.89, '111227_kdwmozqv': 0.84, '111227_ijlksytb': 0.0, '111227_tmjrbpdl': 0.0, '111227_nyqvxfrs': 0.0, '111227_feqcyabp': 0.0, '111227_aqtjszwy': 0.0, '111227_scnlmtyv': 0.0, '111227_kejunvfc': 0.0, '111227_uhbzynsk': 0.0}
+
+
+#kt/ks=4,ks=250,未激活节点1\2\5\6
+平均访问时间是: 0.493
+{'111840_jhaesgop': 0.48, '111840_jwdhgpze': 0.49, '111840_hufbylqx': 0.49, '111840_yxqughia': 0.48, '111840_hgtlkbcy': 0.49, '111840_gycolutr': 0.48, '111840_cmpjhelg': 0.5, '111840_afjbleko': 0.5, '111840_omnyfceq': 0.51, '111840_pdjcbole': 0.51}
+平均访问时间是: 0.5289999999999999
+{'111913_bhfykmtl': 0.58, '111913_wktailrn': 0.48, '111913_wfrednbp': 0.56, '111913_tmwxflqo': 0.51, '111913_ramynqfh': 0.57, '111913_yravxpus': 0.48, '111913_tuwlcyvh': 0.57, '111913_pcnzdgrm': 0.49, '111913_vcngyqtd': 0.56, '111913_ehmltidw': 0.49}
+平均访问时间是: 0.531
+{'111947_vfromswx': 0.56, '111947_zvbyielf': 0.48, '111947_dszrxihf': 0.57, '111947_fquiklyw': 0.51, '111947_mvsxiuyo': 0.57, '111947_mkpjczet': 0.49, '111947_sdzlyvpr': 0.56, '111947_zesvybxa': 0.5, '111947_xrnoveab': 0.58, '111947_mvxfqlgo': 0.49}
+平均访问时间是: 0.54
+{'112021_dztbwnhp': 0.52, '112021_mscuqjyk': 0.58, '112021_bjlqhuai': 0.51, '112021_yvoznwje': 0.49, '112021_jimzskdt': 0.57, '112021_tkcegjlb': 0.49, '112021_xbvhakze': 0.58, '112021_lrvcyifw': 0.5, '112021_feulhjgr': 0.57, '112021_wtfzhvij': 0.59}
+平均访问时间是: 0.6699999999999999
+{'112054_gnzeadkj': 0.5, '112054_yixfrevq': 0.71, '112054_wxrnmafk': 0.59, '112054_kfzntghd': 0.7, '112054_kcjnezar': 0.71, '112054_fzbnvdps': 0.74, '112054_ulrgonmj': 0.71, '112054_krjqagbf': 0.6, '112054_ehwunrlm': 0.72, '112054_fzjavhbx': 0.72}
+平均访问时间是: 0.688
+{'112128_ktenogxs': 0.73, '112128_fazdrlpq': 0.69, '112128_unljsxgf': 0.59, '112128_mhakqget': 0.71, '112128_oegwatfl': 0.72, '112128_fonymegp': 0.74, '112128_gdyajenl': 0.7, '112128_rzgyvktf': 0.58, '112128_gfrqcisl': 0.71, '112128_bwvmdknp': 0.71}
+平均访问时间是: 0.693
+{'112220_qnxmlrvw': 0.75, '112220_flvoumda': 0.71, '112220_hywkzsia': 0.6, '112220_cquigmkf': 0.71, '112220_ytmqrfbk': 0.71, '112220_opjqynvi': 0.74, '112220_tivyrfcn': 0.7, '112220_vfpgarbc': 0.59, '112220_uyahqktr': 0.71, '112220_vzulseqa': 0.71}
+平均访问时间是: 0.7130000000000001
+{'112254_bsyczvnf': 0.74, '112254_ygupejlm': 0.7, '112254_nuopjghq': 0.72, '112254_dpkcyifb': 0.86, '112254_axrvfech': 0.71, '112254_yxbopkwr': 0.72, '112254_mdtoibyq': 0.7, '112254_mdcbquvn': 0.58, '112254_qhckoxjp': 0.7, '112254_mxsqgzwc': 0.7}
+平均访问时间是: 0.7190000000000001
+{'112328_kqtojyug': 0.71, '112328_zjntkauv': 0.84, '112328_twndpfve': 0.72, '112328_rwdpyjlu': 0.7, '112328_rlwqghjs': 0.71, '112328_tmhzpdjr': 0.71, '112328_bpjouafv': 0.71, '112328_otsuawkm': 0.7, '112328_mkqhsndx': 0.69, '112328_tyozqrfe': 0.7}
+平均访问时间是: 0.6375
+{'112402_usemhzvx': 0.71, '112402_nxdahout': 0.7, '112402_deviqgwt': 0.71, '112402_beckotwj': 0.7, '112402_ocwlakph': 0.71, '112402_whsvcodl': 0.71, '112402_ihafwkcr': 0.85, '112402_ariqmyvu': 0.01, '112402_rmbkatqv': 0.0, '112402_lcnheiqz': 0.0}
+
+
+
+
+#kt/ks=0.5,ks=2000,
+{'112751_hmlejcxg': 0.48, '112751_ejsxyrwh': 0.49, '112751_cfqgwaty': 0.59, '112751_jdnvtbur': 0.51, '112751_ncxlwqhg': 0.59, '112751_mtbhxkjc': 0.58, '112751_ogixnvkp': 0.5, '112751_rpvuweaf': 0.59, '112751_qywchbrk': 0.58, '112751_mwysojvh': 0.52}
+平均访问时间是: 0.615
+{'112825_uhznmgvs': 0.59, '112825_cvjbwoui': 0.72, '112825_dgerpwqt': 0.57, '112825_liyqnaru': 0.58, '112825_tdpungbq': 0.49, '112825_fzmtuhls': 0.85, '112825_byhtgwpr': 0.52, '112825_datjolng': 0.57, '112825_owujmlxc': 0.69, '112825_qcdnvysi': 0.57}
+平均访问时间是: 0.65
+{'112858_gmtnfrqy': 0.59, '112858_tdflbxps': 0.69, '112858_asojhxvl': 0.57, '112858_fhpargcb': 0.63, '112858_xwarpcfe': 0.7, '112858_rlqbemda': 0.56, '112858_lxvjcrqa': 0.84, '112858_xidpjrek': 0.71, '112858_zrmfhegl': 0.58, '112858_pqksngve': 0.63}
+平均访问时间是: 0.703
+{'112932_xwmybrle': 0.7, '112932_pkwbifgc': 0.57, '112932_jdiplcvs': 0.85, '112932_izfjsqob': 0.7, '112932_hszeqyka': 0.58, '112932_cqsjpmyu': 0.84, '112932_nbedxfrz': 0.69, '112932_vkbxmsnj': 0.57, '112932_lrhpiucj': 0.84, '112932_zrgnexfq': 0.69}
+平均访问时间是: 0.677
+{'113005_qveapkdx': 0.59, '113005_lkntsbwa': 0.64, '113005_esfoublt': 0.71, '113005_oncqzkdy': 0.59, '113005_zjwnoctb': 0.84, '113005_ucjiynmb': 0.71, '113005_pvonzril': 0.58, '113005_djelbhif': 0.83, '113005_xojwnmkv': 0.7, '113005_vsexowkj': 0.58}
+平均访问时间是: 0.7140000000000001
+{'113039_mkyjpqsh': 0.83, '113039_ijvlsano': 0.69, '113039_zrtqgvfb': 0.57, '113039_zfvunebo': 0.83, '113039_dimcqxlb': 0.7, '113039_oulrcdef': 0.57, '113039_fswzuyhm': 0.85, '113039_qnzvmdyu': 0.7, '113039_hyvftzxw': 0.57, '113039_xvdnectf': 0.83}
+平均访问时间是: 0.689
+{'113113_qfxrswzb': 0.72, '113113_yxwbtham': 0.58, '113113_encjgmfz': 0.84, '113113_trapjgdo': 0.69, '113113_lncfywhp': 0.57, '113113_qjreoiug': 0.86, '113113_yzxlcrko': 0.71, '113113_cejugbxy': 0.58, '113113_czbqypid': 0.64, '113113_xsgpjqtv': 0.7}
+平均访问时间是: 0.6920000000000001
+{'113146_kvgrqaze': 0.57, '113146_xvmptysn': 0.83, '113146_pgmakfct': 0.71, '113146_gkswjcul': 0.59, '113146_amlvxenq': 0.85, '113146_pxtieouc': 0.7, '113146_bhnelfko': 0.56, '113146_unycltmk': 0.84, '113146_kpvwuqac': 0.7, '113146_pzmbkrdw': 0.57}
+平均访问时间是: 0.7219999999999999
+{'113220_xridnqom': 0.84, '113220_iykbdazq': 0.69, '113220_htwdfqei': 0.57, '113220_rmytbjfx': 0.84, '113220_ktmjovfe': 0.7, '113220_wiochbtr': 0.58, '113220_lisuqemp': 0.85, '113220_iotfqmjy': 0.71, '113220_dsvgriku': 0.59, '113220_idhwakev': 0.85}
+平均访问时间是: 0.7030000000000001
+{'113254_jvrxmikl': 0.7, '113254_cgflsqhy': 0.58, '113254_bsagclmx': 0.84, '113254_kwvgnmzx': 0.7, '113254_haylrcem': 0.56, '113254_iwgcqkdo': 0.84, '113254_zprjlibh': 0.71, '113254_anbmoikq': 0.57, '113254_gfnrwsld': 0.83, '113254_maykswxc': 0.7}
+平均访问时间是: 0.6900000000000001
+{'113328_kvtrhmbx': 0.59, '113328_teuxvgwh': 0.85, '113328_xwfohast': 0.51, '113328_alwsinup': 0.59, '113328_xajedrbi': 0.84, '113328_leovrykt': 0.57, '113328_hyvkqmur': 0.84, '113328_jahudftr': 0.7, '113328_mspgvoru': 0.57, '113328_xjaoievu': 0.84}
+平均访问时间是: 0.8099999999999999
+
+

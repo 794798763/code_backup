@@ -50,7 +50,7 @@ class Server(object):
         self.files=[]
         self.flag=1
         self.sport=sport
-        self.storage_total=104800
+        self.storage_total=419200
         self.storage_consumed=0
         self.band_width_dic=bwd
         self.locked_port=[]
@@ -230,7 +230,6 @@ class Server(object):
         file = msg["file"]
         source_port = msg['sport']
         while True:
-            print('循环中循环中***')
             if self.file_exist_check(file):
                 print('文件存在检查通过')
                 break

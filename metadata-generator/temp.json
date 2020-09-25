@@ -1,395 +1,81 @@
-{
-  '8001': [
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86233.12
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86233.12
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86233.12
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86234.81
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86234.81
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86234.81
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_success',
-      'target_port': '8005',
-      'timestamp': 86235.52
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86236.51
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86236.51
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86236.51
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_success',
-      'target_port': '8005',
-      'timestamp': 86237.21
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_success',
-      'target_port': '8004',
-      'timestamp': 86237.49
-    }
-  ],
-  '8002': [
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'local_storage',
-      'target_port': 'no_target',
-      'timestamp': 86229.98
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86231.67
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86231.67
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86231.67
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86231.67
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'local_storage',
-      'target_port': 'no_target',
-      'timestamp': 86231.68
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_success',
-      'target_port': '8001',
-      'timestamp': 86233.13
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86233.37
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86233.37
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86233.37
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86233.37
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'local_storage',
-      'target_port': 'no_target',
-      'timestamp': 86233.37
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_success',
-      'target_port': '8003',
-      'timestamp': 86233.96
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_success',
-      'target_port': '8001',
-      'timestamp': 86234.81
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86235.06
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86235.06
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86235.06
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86235.06
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_success',
-      'target_port': '8003',
-      'timestamp': 86236.23
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_success',
-      'target_port': '8001',
-      'timestamp': 86236.51
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_success',
-      'target_port': '8003',
-      'timestamp': 86238.51
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_success',
-      'target_port': '8004',
-      'timestamp': 86241.93
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_success',
-      'target_port': '8005',
-      'timestamp': 86241.93
-    }
-  ],
-  '8003': [
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86233.95
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86233.95
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86233.95
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86236.23
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86236.23
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86236.23
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86238.5
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86238.5
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86238.51
-    }
-  ],
-  '8004': [
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86237.49
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86237.49
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86237.49
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86238.54
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86238.54
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86238.54
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86241.92
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86241.92
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8005',
-      'timestamp': 86241.92
-    }
-  ],
-  '8005': [
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86235.51
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86235.51
-    },
-    {
-      'file_hash': 'xxx11new32184hbu',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86235.51
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86237.21
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86237.21
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86237.21
-    },
-    {
-      'file_hash': 'xxx9595951',
-      'task_type': 'back_up_success',
-      'target_port': '8004',
-      'timestamp': 86238.54
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8001',
-      'timestamp': 86241.92
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8003',
-      'timestamp': 86241.93
-    },
-    {
-      'file_hash': 'xxx11new22ucy',
-      'task_type': 'back_up_begin',
-      'target_port': '8004',
-      'timestamp': 86241.93
-    }
-  ],
-  '8006': [],
-  '8007': [],
-  '8008': [],
-  '8009': [],
-  '8010': []
-}
+#进行了100次文件的随机备份并获取,得到平均访问时间是: 0.742
+
+每次存入2.5M的文件并获取,计算相邻十次的平均获取时间,直到备份节点不足三个
+20 40 60 80
+
+        #新的实验四,把实验三的节点存储量提升了四倍,为了增加样本数量,减小偶然性,现在是每个节点400M存储量,文件2.5M,碎片0.5M
+
+
+
+
+        #kt/ks=0.25,ks=4000,
+
+平均访问时间是: 0.6890000000000001
+平均访问时间是: 0.6835000000000002
+平均访问时间是: 0.6755000000000002
+平均访问时间是: 0.6895
+平均访问时间是: 0.6865000000000001
+平均访问时间是: 0.6755000000000001
+平均访问时间是: 0.6910000000000001
+平均访问时间是: 0.686
+平均访问时间是: 0.676
+平均访问时间是: 0.6910000000000001
+平均访问时间是: 0.6939999999999998
+平均访问时间是: 0.7365
+平均访问时间是: 0.8124999999999999
+
+[20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460,480]
+[0.553,0.616,0.67,0.69,0.686,0.678,0.688,0.673,0.688,0.682,0.673,0.689,0.683,0.676,0.690,0.687,0.676,0.691,0.686,0.676,0.691,0.693,0.737,0.812]
+
+
+
+
+
+
+
+
+
+
+                #kt/ks=0.5,ks=2000,
+
+              #未衰减,取kt/ks=1.3,ks=769,
+
+
+
+
+
+#未衰减,取kt/ks=2.5,ks=400,1\2\6未激活
+平均访问时间是: 0.7499999999999999
+{'122247_ilepsxkg': 0.73, '122247_halzitsf': 0.84, '122247_adunrxck': 0.58, '122247_pktyqnwe': 0.85, '122247_eukibwvx': 0.84, '122247_nmeavupb': 0.7, '122247_aobgnxuz': 0.84, '122247_fnjhdywq': 0.7, '122247_yejxmvwl': 0.83, '122247_jfudnvwc': 0.7, '122247_hawrxlbq': 0.85, '122247_ezyjoxas': 0.59, '122247_bizshwyq': 0.84, '122247_mrzxeqib': 0.7, '122247_kyzjtcve': 0.85, '122247_zqsadebo': 0.59, '122247_eniwayjf': 0.84, '122247_rflchpem': 0.71, '122247_zbfoqust': 0.83, '122247_ucapshyx': 0.59}
+[20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400]
+[0.498, 0.532, 0.535, 0.532, 0.542, 0.578, 0.58, 0.565, 0.644, 0.649, 0.63, 0.633, 0.646, 0.672, 0.662, 0.678, 0.713, 0.684, 0.735, 0.75]
+平均访问时间是: 0.6946153846153845
+{'122345_xkezvyac': 0.87, '122345_cdgpvsnl': 0.85, '122345_fpkxlems': 0.7, '122345_cwazlnqd': 0.84, '122345_amvoxkfg': 0.84, '122345_wqksafvu': 0.7, '122345_gzdbuwho': 0.84, '122345_xutqzobj': 0.84, '122345_wbaemdoy': 0.84, '122345_dijqfozy': 0.85, '122345_ixvdajso': 0.84, '122345_vrmilbte': 0.0, '122345_tqvsduck': 0.0, '122345_qgctkyar': 0.0, '122345_mbyoceku': 0.0, '122345_awjmhtig': 0.01, '122345_fdabykgx': 0.0, '122345_tvlsyuxj': 0.0, '122345_sxabjfml': 0.0, '122345_dxberqzc': 0.01}
+[20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420]
+[0.498, 0.532, 0.535, 0.532, 0.542, 0.578, 0.58, 0.565, 0.644, 0.649, 0.63, 0.633, 0.646, 0.672, 0.662, 0.678, 0.713, 0.684, 0.735, 0.75, 0.695]
+
+
+
+#kt/ks=4,ks=250,未
+平均访问时间是: 0.49800000000000005
+平均访问时间是: 0.49450000000000005
+平均访问时间是: 0.5330000000000001
+平均访问时间是: 0.538
+平均访问时间是: 0.535
+平均访问时间是: 0.5365
+平均访问时间是: 0.5265000000000001
+平均访问时间是: 0.549
+平均访问时间是: 0.6379999999999998
+平均访问时间是: 0.6595
+平均访问时间是: 0.6785
+平均访问时间是: 0.6525000000000001
+平均访问时间是: 0.6645
+平均访问时间是: 0.6695
+平均访问时间是: 0.7094999999999998
+平均访问时间是: 0.7249999999999999
+平均访问时间是: 0.7204999999999998
+平均访问时间是: 0.703
+平均访问时间是: 0.7024999999999998
+平均访问时间是: 0.8277777777777777
+[20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400]
+[0.498,0.494,0.533,0.538,0.535,0.536,0.526,0.549,0.637,0.659,0.678,0.652,0.664,0.669,0.709,0.724,0.720,0.703,0.702,0.827]
