@@ -1,1 +1,5 @@
 # code_backup
+
+largescaledfilelocation项目实现了一个具有基本功能的IPFS网络
+
+相关实验数据以及代码可以在metadate-generator中找到
